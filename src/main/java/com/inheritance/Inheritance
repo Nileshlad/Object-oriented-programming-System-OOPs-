@@ -14,3 +14,25 @@ class A extends B
 {
 }
 
+**Terms used in Inheritance**
+1.Class: A class is a group of objects which have common properties. It is a template or blueprint from which objects are created.
+Sub Class/Child Class: Subclass is a class which inherits the other class. It is also called a derived class, extended class, or
+child class.
+
+2.Super Class/Parent Class: Superclass is the class from where a subclass inherits the features.
+It is also called a base class or a parent class.
+
+3.Reusability: As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of
+the existing class when you create a new class. You can use the same fields and methods already defined in the previous class.
+
+**Types of Inheritance:**
+1.Single Inheritance: refers to a child and parent class relationship where a class extends the another class.
+
+2.Multilevel inheritance: refers to a child and parent class relationship where a class extends the child class.
+ For example class A extends class B and class B extends class C.
+
+3.Hierarchical inheritance: refers to a child and parent class relationship where more than one classes extends
+ the same class. For example, class B extends class A and class C extends class A.
+
+4.Multiple Inheritance: refers to the concept of one class extending more than one classes,
+which means a child class has two parent classes. Java doesn’t support multiple inheritance, read more about it here
