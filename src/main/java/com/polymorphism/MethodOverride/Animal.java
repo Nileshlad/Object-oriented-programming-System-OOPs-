@@ -1,4 +1,4 @@
-package com.polymorphism;
+package com.polymorphism.MethodOverride;
 
 public class Animal {
     public void sound(){
